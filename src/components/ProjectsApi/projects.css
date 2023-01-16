@@ -1,0 +1,88 @@
+.qasdasdad {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+.projects-h1{
+    font-size: 21px;
+    margin: 0 auto;
+    margin-top: -2rem;
+    max-width: 390px;
+    text-align: center;
+
+    background-color: rgb(16, 13, 43);
+    padding: 1rem;
+    border-radius: 30px;
+    color: white;
+    white-space: nowrap;
+    border: 1px solid white;
+  
+
+}
+
+
+
+.projects{
+    display: flex;
+   flex-wrap: wrap;
+    margin-bottom: .5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.projects-card{
+    
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(180deg, #202443 43%, rgba(39, 38, 38, 0.43) 90%, rgba(39, 38, 38, 0) 95%);
+    color: white;
+    font-family:Inconsolata;
+
+    margin-top: 5rem;
+ margin: 5rem 5rem;
+    border: .1px solid rgba(0, 0, 0, 0.05);
+
+
+}
+
+.project-img{
+    width: 100%;
+    margin-bottom: 1rem;
+
+    
+}
+
+
+.project-about{
+    margin-top: .2rem;
+    margin-left: .7rem;
+    display: flex;
+    margin-bottom: 1rem;
+    
+
+}
+
+.project-about h3{
+    margin-bottom: 1rem;
+}
+
+
+
+.btns-project{
+    margin-top: 1rem;
+ margin-left: 1rem;
+}
+.btn-projects img{
+    width: 50px;
+    margin-bottom: .2rem;
+    margin-right: 1rem;
+    transition: all 100ms ease-in;
+}
+.btn-projects img:hover{
+    transform: scale(1.1);
+}
+
+
+

@@ -1,0 +1,29 @@
+.mini--links{
+    
+    color: white;
+   
+}
+
+
+
+
+.mini{
+    
+    list-style-type: none;
+    padding: 1rem .5rem;
+    background: rgba(0, 0, 0, 0.349);
+    border-radius: 1rem;
+    
+    border: 2px solid white;
+}
+
+.mini--lis{
+    margin-bottom: 1REM;
+    border-radius: 1rem;
+    transition: background 300ms;
+    padding:0.5rem  
+}
+
+.mini--lis:hover{
+background-color: #525357;
+}
