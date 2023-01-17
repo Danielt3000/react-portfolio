@@ -10,7 +10,7 @@ function Test() {
 
   // useEffect(() => {
   //   fetch(
-  //     ``
+  //     `https://backend-portfolio.danielt3000.repl.co/api/projects/`
   //   )
   //     .then((response) => response.json())
   //     .then((actualData) => {
@@ -18,7 +18,7 @@ function Test() {
   //     });
   // }, []);
 
-  
+
 
   return (
     <>
