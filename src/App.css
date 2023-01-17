@@ -307,7 +307,7 @@ height: 100%;
 .conteiner.open{
     background-color: black;
     display: block;
-    z-index: 0;
+    z-index: 2;
 }
 
 
@@ -493,6 +493,7 @@ width: 7rem;
     position: sticky;
     background: transparent;
     height: 100px;
+    z-index: 3;
 }
 
 .nowrap.active{

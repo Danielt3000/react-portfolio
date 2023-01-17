@@ -1,4 +1,4 @@
-.qasdasdad {
+.project-title {
     margin-left: 1rem;
     margin-right: 1rem;
 }
@@ -10,7 +10,6 @@
     margin-top: -2rem;
     max-width: 390px;
     text-align: center;
-
     background-color: rgb(16, 13, 43);
     padding: 1rem;
     border-radius: 30px;
@@ -20,69 +19,150 @@
   
 
 }
-
-
-
 .projects{
+
     display: flex;
-   flex-wrap: wrap;
-    margin-bottom: .5rem;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
+    margin: 4rem;
 }
 
+.card-content{
+    margin: 2rem 2rem;
+    border-radius: 15px;
+    width: 19.188rem;
+    height: fit-content;
+    border: solid 1px white;
+    background-color: black;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;}
 
-.projects-card{
-    
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(180deg, #202443 43%, rgba(39, 38, 38, 0.43) 90%, rgba(39, 38, 38, 0) 95%);
-    color: white;
-    font-family:Inconsolata;
-
-    margin-top: 5rem;
- margin: 5rem 5rem;
-    border: .1px solid rgba(0, 0, 0, 0.05);
-
-
-}
-
-.project-img{
+.imagen{
     width: 100%;
-    margin-bottom: 1rem;
+    margin-bottom: -7rem;
+    border-radius: 15px 15px ;
 
     
 }
 
+.info{
+    z-index: 1;
+    padding-top: 1rem;
+    border-radius: 15px;
+    background-color: white;
+    position: relative;
+    width: 100%;
+}
 
-.project-about{
-    margin-top: .2rem;
-    margin-left: .7rem;
+.title_logo{
+    width: 80%;
+    margin-left: 1rem;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
     display: flex;
-    margin-bottom: 1rem;
-    
-
 }
 
-.project-about h3{
-    margin-bottom: 1rem;
+.logo_mine{
+    position:absolute;
+    top: 5px;
+    right: -6px;
+    height: 44px;
 }
 
-
-
-.btns-project{
+.about_project{
     margin-top: 1rem;
- margin-left: 1rem;
+    margin-left: 1rem;
+    width: 84%;
+    position: relative;
+    font-weight: 600;
+    
 }
-.btn-projects img{
-    width: 50px;
-    margin-bottom: .2rem;
+
+.content_about{
+    margin-top: 1rem 1rem;
+    font-size: .8rem;
+    line-height: 21px;
+}
+
+
+.link_ownPage{
+    font-size: .8rem;
+    color: rgb(161, 118, 24);
+    position: absolute;
+    bottom: 4px;
+    left: 6rem;
+    text-decoration: solid;
+    transition: all 500ms ease-in;
+}
+
+/* .link_ownPage::before{
+    content: "..... ";
+} */
+
+.link_ownPage:hover{
+transform: translateX(1.7rem);
+}
+
+
+
+
+.tec_links{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    background-color: #1C1E3D;
+    justify-content: space-between;
+    padding: .5rem;
+    color: white;
+}
+
+.h4_tec{
+    margin-left: 1rem;
+}
+
+
+.h4_links{
+    margin-right: .5rem;
+}
+
+.two_divs_tec_links {
+    margin-top: .7rem;
+display: flex;
+justify-content: space-between;
+
+}
+
+.technologys_use{
+display: grid;
+margin: 0 auto;
+margin-top: .8rem;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(2, 10px);
+gap: 10px;
+}
+
+.format_size{
+    width: 35px;
+    
+}
+
+
+
+.btn-projects{
     margin-right: 1rem;
+}
+
+.btn-projects img{
+    
+    width: 30px;
     transition: all 100ms ease-in;
 }
 .btn-projects img:hover{
     transform: scale(1.1);
 }
+
+
+
 
 
 
