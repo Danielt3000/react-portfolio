@@ -2,23 +2,22 @@ import React from "react";
 import "./projects.css";
 import git from "./imgs-projects/github.png";
 import link from "./imgs-projects/link.png";
+import axios from "axios";
 
 import { useEffect, useState } from "react";
 
 function Test() {
   const [projects, setprojects] = useState();
 
-  // useEffect(() => {
-  //   fetch(
-  //     `https://backend-portfolio.danielt3000.repl.co/api/projects/`
-  //   )
-  //     .then((response) => response.json())
-  //     .then((actualData) => {
-  //       setprojects(actualData.projects);
-  //     });
-  // }, []);
+  useEffect(() => {
+    fetch(`https://backend-portfolio.danielt3000.repl.co/api/projects/`)
+      .then((response) => response.json())
+      .then((actualData) => {
+        setprojects(actualData.projects);
+      });
+  }, []);
 
-
+  console.log(projects);
 
   return (
     <>
