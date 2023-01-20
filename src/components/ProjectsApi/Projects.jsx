@@ -21,8 +21,6 @@ function Test() {
       });
   }, []);
 
-  let more = " More About The Project -> ";
-
   return (
     <>
       <div className="projects-body">
@@ -47,10 +45,13 @@ function Test() {
                     <img className="logo_mine" src={logos} alt="" />
                   </div>
                   <div className="about_project">
-                    <p className="content_about">{data.about}</p>
-                    <a href="/" className="link_ownPage">
-                      {more}
-                    </a>
+                    <p className="content_about">
+                      {data.about + "...."}
+                      <a className="link_ownPage" href="http://">
+                        {" "}
+                        More About the page --->
+                      </a>
+                    </p>
                   </div>
                   <div className="tec_links">
                     <h4 className="h4_tec">Technology's</h4>

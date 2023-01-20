@@ -86,11 +86,9 @@
 
 
 .link_ownPage{
-    font-size: .8rem;
+    margin-top: .5rem;
+    display: block;
     color: rgb(161, 118, 24);
-    position: absolute;
-    bottom: 4px;
-    left: 6rem;
     text-decoration: solid;
     transition: all 500ms ease-in;
 }
