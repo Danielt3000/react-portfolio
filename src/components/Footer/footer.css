@@ -1,0 +1,18 @@
+.footer_background{
+  width: 100%;
+  background-color: rgba(27, 27, 27, 0.801);
+}
+
+.yelllow_footer{
+  color:  #FEA423;
+}
+
+
+.container_footer{
+  color: white;
+  text-align: center;
+width: 25rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+

@@ -3,6 +3,7 @@ import Nav from "./components/nav/Nav";
 import About from "./components/About/About.jsx";
 import Footer from "./components/Footer/Footer";
 import Projects from "./components/ProjectsApi/Projects";
+import ALittleAboutMe from "./components/A Little About Me/ALittleAboutMe";
 import "animate.css";
 
 function App() {
@@ -12,7 +13,9 @@ function App() {
         <Nav />
         <About />
       </div>
+      <ALittleAboutMe />
       <Projects />
+      <Footer />
     </div>
   );
 }

@@ -49,7 +49,7 @@ function Test() {
                       {data.about + "...."}
                       <a className="link_ownPage" href="http://">
                         {" "}
-                        More About the page --->
+                        More About the page ---
                       </a>
                     </p>
                   </div>
